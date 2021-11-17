@@ -3,7 +3,7 @@ use anchor_lang::prelude::*;
 declare_id!("7HB9xKFZ2fNE3E4BJN3fjZF2X7Piwt8owRi8L2LTpj23");
 
 #[program]
-mod mysolanaapp {
+mod wtia_auction {
     use super::*;
 
     pub fn create(ctx: Context<Create>) -> ProgramResult {
